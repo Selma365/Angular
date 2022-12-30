@@ -1,5 +1,5 @@
 # Angular
-Learning Angular
+Learning TypeScript
 
 - type anotations
 - arrow functions
@@ -9,3 +9,10 @@ Learning Angular
 - access modifiers
 - properties
 - modules
+
+
+Learning Angular
+- Components
+- Templates
+- Directives
+- Services
