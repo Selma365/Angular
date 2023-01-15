@@ -4,7 +4,7 @@ They contain the HTML elements, directives, and binding expressions that make up
 
 Templates can also contain directives, which are special markers that tell Angular to apply logic to a part of the template.
 For example, the *ngFor directive tells Angular to repeat a section of the template for each item in an array:
-
+templates:
 <ul>
   <li *ngFor="let item of items">{{item}}</li>
 </ul>
