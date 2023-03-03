@@ -1,29 +1,5 @@
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  title = 'FirstProject';
-  public name = "Selma";
-  public message= '';
-}
+<h2>Title 1</h2>
+<app-employee-list>
 
   
-
-
-<span>Welcome</span>
-<div class="content" role="main">
-
-    <span>{{ message }} app is running!</span>
-    <!-- prvi nacin poziva komponente pomocu SELEKTORA -->
-    <app-test (childEvent)="message=$event" [parentData]="name"> </app-test>
-    <!-- drugi nacin poziva komponente pomocu CLASS atributa ali da u selektoru stavimo . ispred naziva komponente
-    <div class="app-test">
-    </div>-->
-    
-    <!-- treci nacin poziva komponente pomocu komponente kao atributa, u selektoru sada je komponeneta u [] zagradama
-    <div app-test >
-    </div> -->
-
-</div>
+<h2>some</h2>
